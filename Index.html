@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing my web development projects, skills, and experience.">
+    <meta name="keywords" content="web developer, portfolio, HTML, CSS, JavaScript">
+    <meta name="author" content="Your Name">
+    <title>Professional Portfolio | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header role="banner">
+        <nav role="navigation" aria-label="Main Navigation">
+            <div class="nav-container">
+                <h1 class="logo">Dickens Leonot S</h1>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to My Portfolio</h2>
+                <p>Full-stack web developer with expertise in modern web technologies</p>
+                <a href="#projects" class="cta-button" role="button">View My Work</a>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-me">
+            <div class="container">
+                <h2>About Me</h2>
+                <article class="about-content">
+                    <p>
+                        I'm a passionate web developer with 5+ years of experience in creating responsive, 
+                        accessible, and high-performance web applications. I specialize in front-end development 
+                        using modern frameworks and tools, with a strong focus on user experience and accessibility.
+                    </p>
+                    <p>
+                        My journey in web development started with curiosity about how websites work, 
+                        and it has evolved into a career dedicated to building beautiful and functional digital experiences.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <figure>
+                            <img 
+                                src="project1.jpg" 
+                                alt="E-commerce website showing product listings and shopping cart interface"
+                                class="project-image"
+                            >
+                            <figcaption class="sr-only">Project 1: E-commerce Platform</figcaption>
+                        </figure>
+                        <h3>E-commerce Platform</h3>
+                        <p class="project-description">
+                            A fully functional e-commerce platform built with React and Node.js, 
+                            featuring product filtering, shopping cart, and secure payment integration.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link" aria-label="View E-commerce Platform project details">View Project</a>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <figure>
+                            <img 
+                                src="project2.jpg" 
+                                alt="Task management application with kanban board layout showing different status columns"
+                                class="project-image"
+                            >
+                            <figcaption class="sr-only">Project 2: Task Management App</figcaption>
+                        </figure>
+                        <h3>Task Management App</h3>
+                        <p class="project-description">
+                            A collaborative task management application allowing users to create, assign, 
+                            and track project tasks with real-time updates.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Tailwind CSS</span>
+                        </div>
+                        <a href="#" class="project-link" aria-label="View Task Management App project details">View Project</a>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <figure>
+                            <img 
+                                src="project3.jpg" 
+                                alt="Weather application displaying current temperature and forecast information"
+                                class="project-image"
+                            >
+                            <figcaption class="sr-only">Project 3: Weather App</figcaption>
+                        </figure>
+                        <h3>Weather Application</h3>
+                        <p class="project-description">
+                            A weather app that provides real-time weather data, forecasts, and location-based 
+                            recommendations powered by Weather API.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">API Integration</span>
+                            <span class="tag">CSS Grid</span>
+                        </div>
+                        <a href="#" class="project-link" aria-label="View Weather Application project details">View Project</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Skills & Expertise</h2>
+                <div class="skills-grid">
+                    <article class="skill-category">
+                        <h3>Front-End Development</h3>
+                        <ul class="skill-list">
+                            <li>HTML5 & Semantic HTML</li>
+                            <li>CSS3 & Preprocessors (SASS, LESS)</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React & Vue.js</li>
+                            <li>Responsive Web Design</li>
+                            <li>Web Accessibility (WCAG)</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-category">
+                        <h3>Back-End Development</h3>
+                        <ul class="skill-list">
+                            <li>Node.js & Express</li>
+                            <li>RESTful APIs</li>
+                            <li>Database Design (SQL & NoSQL)</li>
+                            <li>Authentication & Security</li>
+                            <li>Server Deployment</li>
+                            <li>Cloud Services (AWS, Firebase)</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <ul class="skill-list">
+                            <li>Git & Version Control</li>
+                            <li>Webpack & Module Bundlers</li>
+                            <li>NPM & Package Management</li>
+                            <li>Testing Frameworks</li>
+                            <li>DevTools & Debugging</li>
+                            <li>Performance Optimization</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p class="contact-intro">
+                    I'm always interested in hearing about new projects and opportunities. 
+                    Feel free to reach out!
+                </p>
+                <form class="contact-form" method="POST" action="#" aria-label="Contact form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            required
+                            aria-required="true"
+                            placeholder="Your full name"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            required
+                            aria-required="true"
+                            placeholder="your.email@example.com"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input 
+                            type="text" 
+                            id="subject" 
+                            name="subject" 
+                            required
+                            aria-required="true"
+                            placeholder="What is this about?"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            rows="5" 
+                            required
+                            aria-required="true"
+                            placeholder="Your message here..."
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-button" aria-label="Send contact form">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <p>&copy; 2024 John Doe. All rights reserved.</p>
+            <nav aria-label="Footer Navigation">
+                <ul class="footer-links">
+                    <li><a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile">GitHub</a></li>
+                    <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">LinkedIn</a></li>
+                    <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Visit my Twitter profile">Twitter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
